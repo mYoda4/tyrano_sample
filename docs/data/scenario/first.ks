@@ -1,46 +1,74 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="メンヘラ彼女の攻略！"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「メンヘラ彼女の攻略！」[l][r][r][r]
 
-メロスは激怒した。[l][r]
+彼女「今日の晩御飯どうしようかなー[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+何がいい？
 
-(中略)[l][r]
+彼氏くんの好きなもの作ってあげる！」[l][r][r][r][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_nikujaga] → 「肉じゃが！！」[endlink][r]
+[link target=*tag_rollcabage] →「ロールキャベツ！！」 [endlink][r]
+[link target=*tag_tomato] →「とまと！！」 [endlink][r]
+[link target=*tag_any] →「なんでもいい！！」 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_nikujaga
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+彼女「肉じゃがいいよ〜。そうしよ！！」[l][r]
+晩御飯は普通においしい肉じゃがだった。[r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_rollcabage
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+彼女「ん〜、ロールキャベツ...[l][r]
+めんどくさいな、[l][r]
+何か他に食べたいものはないの？」[l][r]
+ロールキャベツは作ってもらえないようだ。[l][r]
+ぴえん[r]
 
-【 GOOD END 】[l][cm]
+【 他にして END 】[l][cm]
+
+[jump target=*start]
+
+*tag_tomato
+
+[bg storage=run.jpg time=500]
+
+[cm]
+彼女「え、トマト好きだったの...笑」[l][r]
+彼女は引き攣った笑みを浮かべている[l][r]
+なんだかわからないが笑ってくれてよかった。[r]
+
+【 呆れ END 】[l][cm]
+
+[jump target=*start]
+
+*tag_any
+
+[bg storage=run.jpg time=500]
+
+[cm]
+彼女「決めるのめんどくさいから聞いてんじゃん」[l][r]
+その日の晩ご飯は白米と千切りキャベツだった。[l][r]
+どうやら彼女の機嫌は悪かったようだ。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
