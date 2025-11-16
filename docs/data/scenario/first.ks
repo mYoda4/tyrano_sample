@@ -1,11 +1,14 @@
 *start
 
-[title name="メンヘラ彼女の攻略！"]
+[title name="彼女の攻略！"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「メンヘラ彼女の攻略！」[l][r][r][r]
+「彼女の攻略！」[l][r][r][r]
+
+[bg storage=kitchen_simple01.png time=500]
+[image name = "normalgirl" storage="girl_normal.png" layer="1" x="0"]
 
 彼女「今日の晩御飯どうしようかなー[l][r]
 
@@ -13,17 +16,16 @@
 
 彼氏くんの好きなもの作ってあげる！」[l][r][r][r][r]
 
-[link target=*tag_nikujaga] → 「肉じゃが！！」[endlink][r]
-[link target=*tag_rollcabage] →「ロールキャベツ！！」 [endlink][r]
-[link target=*tag_tomato] →「とまと！！」 [endlink][r]
 [link target=*tag_any] →「なんでもいい！！」 [endlink][r]
+[link target=*tag_tomato] →「とまと！！」 [endlink][r]
+[link target=*tag_rollcabage] →「ロールキャベツ！！」 [endlink][r]
+[link target=*tag_nikujaga] →「肉じゃが！！」[endlink][r]
 [s]
 
 *tag_nikujaga
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
 
 彼女「肉じゃがいいよ〜。そうしよ！！」[l][r]
 晩御飯は普通においしい肉じゃがだった。[r]
@@ -34,7 +36,6 @@
 
 *tag_rollcabage
 
-[bg storage=run.jpg time=500]
 
 [cm]
 彼女「ん〜、ロールキャベツ...[l][r]
@@ -49,7 +50,6 @@
 
 *tag_tomato
 
-[bg storage=run.jpg time=500]
 
 [cm]
 彼女「え、トマト好きだったの...笑」[l][r]
@@ -61,8 +61,6 @@
 [jump target=*start]
 
 *tag_any
-
-[bg storage=run.jpg time=500]
 
 [cm]
 彼女「決めるのめんどくさいから聞いてんじゃん」[l][r]
